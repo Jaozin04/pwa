@@ -1,4 +1,4 @@
-const url = " https://jaozin04.github.io/pwa/";
+const url = "https://jaozin04.github.io/pwa/";
 const CACHE_NAME = "ricoemorte-v8";
 const assets = [
     url+"/",
