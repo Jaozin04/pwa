@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: relative;
+    height: 100px;
+    width: 1300px;
+    background-color: blueviolet;
+}
+
+p{
+    font-size: xx-large;
+    margin: 2px;
+}
+
+.bateria{
+    margin-top: 100px;
+}
+
+.botaos{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 50px;
+}
+
+.instalar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+button{
+    width:200px;
+    height: 100px;
+    margin: 10px;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    height: 100px;
+    width: 1300px;
+    background-color: blueviolet;
+}
+

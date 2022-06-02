@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="pwa.css">
+    <title>PWA</title>
+</head>
+<body>
+    <header>
+        <p>PWA</p>
+    </header>
+	
+    <div class="botaos">
+		<button onclick="Location(15)">MAGICA</button>
+		<button onclick="Character(2)">MAGICA DOIS</button>
+		<button onclick="Episode(5)">MAGICA TRES</button>
+	</div>
+
+    <div class="resultados">
+        
+    </div>
+
+    <div class="bateria">
+        <p>O status inicial da bateria era <b id="charging">unknown</b>, tempo para carregar <b id="chargingTime">unknown</b>, tempo para 0% = <b id="dischargingTime">unknown</b>, nivel da bateria <b id="level">unknown %</b>.</p>
+        <div id="target"></div>
+    </div>
+
+    <p>A memoria do seu dispositivo é de <b id="result">unknown</b> GB.</p>
+
+    <div class="instalar">
+        <h1>Instalar a aplicação</h5>
+        <button id="btn-instalar">Instalar</button>
+    </div>
+
+    <footer></footer>
+
+    <script src="./js/pwascript.js"></script>
+    <script src="./js/instalar.js"></script>
+
+</body>
+</html>
