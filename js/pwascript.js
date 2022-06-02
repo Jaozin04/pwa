@@ -1,6 +1,6 @@
 if ("serviceWorker" in navigator) {
 	window.addEventListener("load", function () {
-	const url = "https://jaozin04.github.io/pwa";
+	const url = "https://github.com/Jaozin04/pwa";
 	  navigator.serviceWorker
 		.register(`${url}sw.js`)
 		.then(res => console.log("service worker registered"))
