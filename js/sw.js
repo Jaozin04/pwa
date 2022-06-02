@@ -1,11 +1,10 @@
-const url = "https://jaozin04.github.io/pwa/";
 const CACHE_NAME = "ricoemorte-v8";
 const assets = [
-    url+"/",
-    url+"/index.html",
-    url+"/manifest.json",
-    url+"/js/instalar.js",
-    url+"/js/pwascript.js"
+    "",
+    "index.html",
+    "manifest.json",
+    "/js/instalar.js",
+    "/js/pwascript.js"
 ];
 
 self.addEventListener('install', (e) => {
